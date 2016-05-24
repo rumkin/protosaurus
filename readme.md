@@ -17,7 +17,7 @@ npm i protosaurus
 ```javascript
 const Protosaurus = require('protosaurus');
 
-var A = Protosaurus.extend({
+const A = Protosaurus.extend({
     constructor(name) {
         this.name = name;
     },
@@ -26,7 +26,7 @@ var A = Protosaurus.extend({
     }
 });
 
-var B = A.extend({
+const B = A.extend({
     greet() {
         return `Hi ${this.name}`;
     }
