@@ -1,0 +1,34 @@
+{
+  "name": "protosaurus",
+  "version": "1.0.0",
+  "description": "Descriptive native js class creator",
+  "main": "src/protosaurus.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/**.spec.js",
+    "cov": "istanbul cover node_modules/mocha/bin/_mocha -- -u exports -R spec test/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rumkin/protosaurus.git"
+  },
+  "keywords": [
+    "prototypes",
+    "constructor",
+    "ctor",
+    "extending",
+    "classes"
+  ],
+  "author": "rumkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rumkin/protosaurus/issues"
+  },
+  "homepage": "https://github.com/rumkin/protosaurus#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.3",
+    "mocha": "^2.5.2"
+  }
+}
